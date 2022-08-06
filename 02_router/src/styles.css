@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background: red;
+  min-height: 100vh;
+}
+
+.btn-primary {
+  background: rgb(218, 57, 57);
+  border: 2px solid rgb(87, 22, 22);
+  width: 40%;
+}
+
+.btn-primary:hover {
+  background: rgb(87, 22, 22);
+  border: 2px solid rgb(20, 10, 10);
+}
+
+.btn-primary:hover:active {
+  box-shadow: 0 0 8px rgb(20, 10, 10);
+}
+
+.btn-primary:focus {
+  background: rgb(87, 22, 22);
+  border: 2px solid rgb(20, 10, 10);
+  box-shadow: 0 0 8px rgb(20, 10, 10);
+}
+
+.flex-column {
+  padding: 16px 16px 16px 16px;
+}
+
+.display-1 {
+  color: rgb(87, 22, 22);
+}
