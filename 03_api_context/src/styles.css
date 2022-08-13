@@ -1,0 +1,75 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.card-lists {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+
+.post-card {
+  height: 14rem;
+  width: 10rem;
+  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2);
+  transition: 1s;
+  padding: 0.125rem 1rem;
+  border-radius: 1rem;
+}
+
+.post-card:hover {
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 1);
+}
+
+.post-title {
+  height: 3rem;
+  font-size: 1.5rem;
+}
+
+.post-body {
+  height: 5rem;
+  color: grey;
+  font-size: 1rem;
+}
+
+.button {
+  padding: 0.5rem;
+  color: white;
+  background-color: #000;
+  cursor: pointer;
+  font-size: 0.9rem;
+  border-radius: 1rem;
+}
+
+.button:hover {
+  opacity: 0.7;
+}
+
+.add-post-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 60%;
+}
+
+.form-control {
+  border: 0.125rem solid #000;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  transition: 0.5s;
+  outline: none;
+  text-align: center;
+}
+
+.form-control:focus {
+  border: 0.2rem solid red;
+}
