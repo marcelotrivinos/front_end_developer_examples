@@ -32,7 +32,7 @@ class RequestData extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="table">
         <table>
           <thead>
             <tr>

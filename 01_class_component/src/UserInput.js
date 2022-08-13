@@ -20,17 +20,19 @@ class UserInput extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="container-form">
         <form onSubmit={this.handleSubmit}>
-          <label>
+          <label for="name">
             Name:
             <input
+              id="name"
               type="text"
               value={this.state.value}
               onChange={this.handleChange}
             ></input>
           </label>
-          <input type="submit" value="Submit"></input>
+
+          <input className="form-row" type="submit" value="Submit"></input>
         </form>
       </div>
     );

@@ -18,7 +18,7 @@ class SelectUser extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="container-select-user">
         <label form="users">Choose an user:</label>
         <select
           id="users"
