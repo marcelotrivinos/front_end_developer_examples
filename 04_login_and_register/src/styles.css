@@ -1,0 +1,57 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-text {
+  width: 12rem;
+}
+
+.button-login {
+  cursor: pointer;
+  margin: 1rem;
+  width: 12rem;
+  background: blue;
+  color: white;
+}
+
+.horizontal-line {
+  width: 15rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 1rem solid red;
+  border-width: thin thick medium;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-register {
+  cursor: pointer;
+  margin: 1rem;
+  width: 12rem;
+  color: white;
+  background: rgb(52, 68, 68);
+}
+
+.information-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: red;
+}
+
+.container-not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
