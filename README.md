@@ -1,5 +1,15 @@
 # Front-End Developer Portfolio
 
+### To Download
+```
+git clone git@github.com:marcelotrivinos/front_end_developer_portfolio.git
+```
+
+### To enter the folder with all the examples
+```
+cd git@github.com:marcelotrivinos/front_end_developer_portfolio
+```
+
 ## 01_class_component
 ### Class Components (componentDidMount, componentWillUnmount and componentDidUpdate), CSS (Flexbox, Dynamic Styles (box-shadow, hover, focus, activate, etc), transform, rem unit), Javascript (setTimeout, alert, event.preventDefault), HTML (form, label, input, table, thead, thbody, tr and th).
 
