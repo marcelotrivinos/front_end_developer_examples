@@ -7,7 +7,7 @@ git clone git@github.com:marcelotrivinos/front_end_developer_portfolio.git
 
 ### To enter the folder with all the examples
 ```
-cd git@github.com:marcelotrivinos/front_end_developer_portfolio
+cd front_end_developer_portfolio
 ```
 
 ## 01_class_component
